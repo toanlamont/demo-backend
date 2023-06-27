@@ -1,0 +1,5 @@
+APP.add_resource(Plan, '/plan')
+APP.add_resource(Bill, '/bill')
+APP.add_resource(BillGet, '/bill/<string:type>')
+APP.add_resource(User, '/user')
+APP.add_resource(UserAction, '/user/<action>')
